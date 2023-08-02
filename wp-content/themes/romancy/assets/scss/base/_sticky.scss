@@ -1,0 +1,24 @@
+.header_sticky {
+    &.sticky_bg_dark {
+        &.active_sticky {
+            background-color: #000;
+        }
+    }
+    &.active_sticky{
+  	    position: fixed;
+  	    top: 0;
+  	    left: 0;
+  	    width: 100%;
+  	    z-index: 9999;
+  	    padding-top: 5px!important;
+        padding-bottom: 5px!important;
+        background-color: #fff;
+  	    @include transaction( all, 0.3s, linear );
+    }
+}
+
+.elementor-column.elementor-element.ova-sticky-column {
+    position: sticky;
+    top: 110px;
+    height: fit-content;
+}

@@ -1,0 +1,26 @@
+
+---Downloaded files---
+The import files for: Demo Import were successfully downloaded!
+Initial max execution time = 480
+Files info:
+Site URL = https://lagopalmsresort.com
+Data file = /home/u774957740/domains/lagopalmsresort.com/public_html/wp-content/themes/romancy/install-resource/demo-import/demo-content.xml
+Widget file = /home/u774957740/domains/lagopalmsresort.com/public_html/wp-content/themes/romancy/install-resource/demo-import/widgets.wie
+Customizer file = /home/u774957740/domains/lagopalmsresort.com/public_html/wp-content/themes/romancy/install-resource/demo-import/customize.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Main Sidebar : 
+
+Categories - No Title - Widget already exists
+Archives - Archives - Widget already exists
+Tag Cloud - Tags - Widget already exists
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

@@ -1,0 +1,58 @@
+.ova-switch-language{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+    position: relative;
+    .icon{
+    	color: #fff;
+    }
+
+    select#ova-language{
+    	padding: 0px;
+		appearance: none;
+		outline: 0;
+		border: 0;
+		box-shadow: none;
+
+    	background-color: transparent;
+    	background-image: none;
+
+		
+    	overflow: hidden;
+    	color: #fff;
+
+    	font-size: 16px;
+    	font-weight: 600;
+
+    	option{
+    		background-color: var(--heading);
+    	}
+    	&:hover{
+    		cursor: pointer;
+    	}
+    }
+    .icon-select{
+    	display: block;
+		position: absolute;
+		top: 50%;
+		right: 23px;
+		transform: translate( 0%, -50%);
+
+		i{
+			font-size: 14px;
+			color: #fff;
+			display: flex;
+		}
+    }
+
+    .ova-box-language{
+
+    	width: 100%;	
+	    padding-left: 23px ;
+	    padding-top: 10px ;
+	    padding-bottom: 10px ;
+	    border: 2px solid #ffffff;
+    }
+
+}

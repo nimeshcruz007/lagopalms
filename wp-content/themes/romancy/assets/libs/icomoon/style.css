@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?cm5mhb');
+  src:  url('fonts/icomoon.eot?cm5mhb#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?cm5mhb') format('truetype'),
+    url('fonts/icomoon.woff?cm5mhb') format('woff'),
+    url('fonts/icomoon.svg?cm5mhb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icomoon-"], [class*=" icomoon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-star:before {
+  content: "\e900";
+}
+.icomoon-wifi:before {
+  content: "\e901";
+}
+.icomoon-user-group:before {
+  content: "\e91f";
+}
+.icomoon-air-conditioner:before {
+  content: "\e902";
+}
+.icomoon-bathtub:before {
+  content: "\e903";
+}
+.icomoon-bed:before {
+  content: "\e904";
+}
+.icomoon-best-price:before {
+  content: "\e905";
+}
+.icomoon-calendar:before {
+  content: "\e906";
+}
+.icomoon-car:before {
+  content: "\e907";
+}
+.icomoon-coffee:before {
+  content: "\e908";
+}
+.icomoon-coffee-machine:before {
+  content: "\e909";
+}
+.icomoon-daughter:before {
+  content: "\e90a";
+}
+.icomoon-door-key:before {
+  content: "\e90b";
+}
+.icomoon-facebook:before {
+  content: "\e90c";
+}
+.icomoon-hairdryer:before {
+  content: "\e90d";
+}
+.icomoon-hotel:before {
+  content: "\e90e";
+}
+.icomoon-image-gallery:before {
+  content: "\e90f";
+}
+.icomoon-key:before {
+  content: "\e910";
+}
+.icomoon-key-chain-outline:before {
+  content: "\e911";
+}
+.icomoon-location:before {
+  content: "\e912";
+}
+.icomoon-man:before {
+  content: "\e913";
+}
+.icomoon-management:before {
+  content: "\e914";
+}
+.icomoon-measure:before {
+  content: "\e915";
+}
+.icomoon-network:before {
+  content: "\e916";
+}
+.icomoon-parking:before {
+  content: "\e917";
+}
+.icomoon-play:before {
+  content: "\e918";
+}
+.icomoon-play-button:before {
+  content: "\e919";
+}
+.icomoon-swimming-pool:before {
+  content: "\e91a";
+}
+.icomoon-tissue-box:before {
+  content: "\e91b";
+}
+.icomoon-tv-monitor:before {
+  content: "\e91c";
+}
+.icomoon-twitter:before {
+  content: "\e91d";
+}
+.icomoon-wifi-signal:before {
+  content: "\e91e";
+}

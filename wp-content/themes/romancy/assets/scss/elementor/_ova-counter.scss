@@ -1,0 +1,145 @@
+.ova-counter {
+	@include transaction(all, 0.3s, ease);
+	text-align: left;
+	
+	&:hover {
+		@include transaction(all, 0.3s, ease);
+		.title, .odometer, .suffix, .icon {
+			@include transaction(all, 0.3s, ease);
+		}
+		
+	}
+
+    .icon {
+    	@include transaction(all, 0.3s, ease);
+    	font-size: 40px;
+    	color: var(--primary);
+    	transform: scale(1);
+    	width: 118px;
+    	height: 106px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+    	
+    		
+    	i {
+    		display: inline-block;
+    	}
+    }
+	.odometer {
+		@include transaction(all, 0.3s, ease);
+		display: inline-block;
+		font-size: 70px; 
+	    font-weight: 400;
+	    color: var(--primary);
+	    line-height: 1.2;
+	    font-feature-settings: 'pnum' on, 'onum' on;
+		.odometer-value {
+			line-height: 1;
+		}
+		&.odometer-auto-theme{
+			line-height: 1;
+			
+
+			    vertical-align: inherit;
+		}
+	}
+
+	.suffix {
+		@include transaction(all, 0.3s, ease);
+		font-size: 70px; 
+	    font-weight: 400;
+	    color: var(--primary);
+	}
+
+	.title {
+		@include transaction(all, 0.3s, ease);
+		font-family: var(--primary-font);
+		margin: 0; 
+		font-size: 16px; 
+		text-transform: uppercase;
+		
+		font-weight: 400;
+		line-height: 1.2; 
+		color: var(--text);
+	}
+
+
+	&.version_2{
+		position: relative;
+		width: 235px;
+		height: 235px;
+		border-radius: 50%;
+		background-color: #ffffff;
+		// border: 15px solid #ffffff;
+		text-align: center;
+		.counter-version_2{
+			width: 100%;
+		    position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    transform: translate(-50%, -50%);
+			.odometer {
+				color: var(--heading);
+				font-size: 48px;
+				font-weight: 400;
+				font-family: var(--secondary-font);
+				
+			}
+
+			.suffix {
+				font-size: 36px;
+				font-weight: 600;
+				color: var(--heading);
+			}
+
+			.title {
+	    		text-transform: capitalize;
+				color: var(--heading);
+				font-weight: 400;
+				font-size: 16px;
+				padding: 0 10%;
+			}
+		}
+		
+	}
+
+	&.version_3{
+		display: flex;
+		justify-content: center;
+	
+		align-items: start;
+    	flex-flow: column;
+    	.icon{
+    		    justify-content: start;
+    		    font-size: 46px;
+    		    width: 100%;
+    		    height: unset;
+    		    margin-bottom: 20px;
+    	}
+		.odometer {
+			font-size: 25px;
+			font-weight: 400;
+			color: var(--heading);
+			&.odometer-auto-theme{
+				margin-bottom: 0px;
+			}
+		}
+		.prefix, .suffix {
+			font-size: 25px;
+			font-weight: 400;
+			vertical-align: text-bottom;
+			color: var(--heading);
+		}
+		.title {
+			font-weight: 400;
+			font-size: 25px;
+			color: var(--heading);
+			text-transform: capitalize;
+			vertical-align: top;
+    		display: inline-block;
+
+		}
+	}
+
+}

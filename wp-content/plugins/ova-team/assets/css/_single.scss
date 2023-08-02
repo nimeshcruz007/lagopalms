@@ -1,0 +1,127 @@
+.ova_team_single{
+	width: 100%;
+
+	.info{
+		display: flex;
+    	justify-content: space-around;
+		column-gap: 50px;
+		padding-bottom: 110px; 
+		@media (max-width: 1024px) {
+			flex-flow:column;
+		}
+		@media (max-width: 767px) {
+			// grid-template-columns: auto;
+			// padding-bottom: 80px;
+		}
+
+        .img {
+        	display: inline-block;
+        	position: relative;
+        	flex: 0 0 39%;
+    		width: 100%;
+    		
+    		border-radius: 10px;
+    		overflow: hidden;
+    		padding: 20px;
+    		
+
+    		@media (max-width: 1024px) {
+				margin-bottom: 44px;
+			}    		
+
+			@media (max-width: 767px) {
+				padding: 15px;
+			}
+    		    
+
+			img {
+				display: block;
+				height: auto;
+				width: 100%;
+				object-fit: cover;
+				border-radius: 10px;
+				box-shadow: 0px 2px 14px 0px #0406421a;
+    			border: 20px solid #fff;
+				@media (max-width: 767px) {
+					height: auto;
+				}
+			}
+			@media (max-width: 767px) {
+				margin-bottom: 30px;
+			}
+		}
+
+		/*Main Content*/
+		.main_content {
+			flex: 0 0 57%;
+    		width: 100%;
+
+    		.meta{
+    			display: flex;
+    			justify-content: space-between;
+    			margin-top: 23px;
+    			border-bottom: 1px dashed var(--border);
+    			padding-bottom: 23px;
+    			@media (max-width: 767px) {
+					
+				}
+
+				.box-list-icon{
+					a{
+						font-size: 35px;
+
+						&:hover{
+							color: var(--heading);
+						}
+					}
+				}
+
+    		}
+
+			.bio {
+				margin-bottom: 26px;
+				margin-top: 23px;
+
+				h1, h2, h3, h4 {
+					font-size: 24px; 
+					line-height: 1.4;
+					font-weight: 700; 
+					color: var(--heading); 
+					padding-bottom: 0px;
+					margin: 0;
+					text-transform: inherit;
+					margin-bottom: 17px;
+				}
+
+				p{
+					margin: 0;
+				}
+			}
+
+			
+
+
+			.name {
+				margin: 0;
+				font-weight: 800;
+                font-size: 40px;
+                line-height: 1.5; 
+                color: var(--heading); 
+
+                @media (max-width: 767px) {
+					font-size: 36px;
+				}
+			}
+
+            .job {
+				margin: 0;
+				font-weight: 400;
+                font-size: 16px;
+                line-height: 1.5; 
+			    text-transform: uppercase;
+    			font-family: var(--primary-font);
+			}
+
+	}			
+	
+}}
